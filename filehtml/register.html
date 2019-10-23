@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form register</title>
+	<style type="text/css">
+		fieldset {
+			border: 10px solid pink;
+			border-left: none;
+			background-color: yellow;
+		}	
+	</style>
+</head>
+<body>
+	<hr>
+	<h3 align="center">Apotik Bumigora</h3>
+	<hr>
+	<fieldset>
+		<legend>Data Diri</legend>
+<form action="proses_register.php" method="POST" form>
+	<table>
+		<tr>
+	<td><label for=no>No. Pendaftaran</label></td>
+	<td><input type="text" name="no" id="no" required="" ></td>
+</tr>
+<tr>
+	<td><label for=nama>Nama</label></td>
+	<td><input type="text" name="nama" id="nama" required="" ></td>
+</tr>
+<tr>
+	<td><label for="ttl">Tempat Tanggal Lahir</label></td>
+	<td><input type="text" name="ttl" id="ttl" required="" >
+	<input type="date" name="date">
+	</td>
+</tr>
+<tr>
+	<td>
+		<label for="religion">agama</label>
+	</td>
+	<td><select name="agama">
+	<option value="islam">islam</option>
+	<option value="hindu" start>hindu</option>
+	<option value="kristen">kristen</option>
+	</select></td>
+</tr>
+<tr>
+	<td><label for="gender">jenis kelamin</label></td>
+	<td><input type="radio" name="jk" id="" > Laki - laki
+	<input type="radio" name="jk" id="" > Perempuan</td>
+</tr>
+<tr>
+	<td><label for="status">status</label></td>
+	<td><select name="status">
+	<option value="Menikah">Menikah</option>
+	<option value="Bujang" start>Bujang</option>
+	<option value="Cerai">Cerai</option>
+	</select></td>
+</tr>
+<tr>
+	<td><label for=kwn>Kewarganegaraan</label></td>
+	<td><select name="Kewarganegaraan"></td>
+		<option value="Warga Negara Indonesia">Warga Negara Indonesia</option>
+		<option value="Warga Negara Asing">Warga Negara Asing</option>
+	</select>
+</tr>
+<tr>
+	<td><label for="email">email</label></td>
+	<td><input type="email" name="email" id="email" required=""></td>
+</tr>
+
+<tr>
+	<td><label for="address">alamat</label></td>
+	<td><textarea name="alamat" id="address" cols="40" rows="5" required=""></textarea></td>
+</tr>
+
+<tr>
+	<td><label for="hoby">hobi </label></td>
+	<td><input type="checkbox" name="hoby">futsal
+	<input type="checkbox" name="hoby">basket</td>
+</tr>
+</table>
+
+	
+	
+	<br>
+	
+	
+	<br>
+	
+	
+	<br>
+	
+	
+	<br>
+	
+	
+	<br>
+	
+	
+	<br>
+
+
+	<br>
+	<center>
+		<button type="submit">simpan</button>
+		<button type="RESET">batal</button>
+	</center>
+</form>
+</fieldset>
+<a href="register.html">REGISTER</a>
+</body>
+</html>

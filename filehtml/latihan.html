@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar Layout</title>
+	<style type="text/css">
+		* {
+ box-sizing: border-box;
+ }
+
+ body {
+ font-family: Arial, Helvetica, sans-serif;
+ }
+
+ /* Style header */
+ header {
+
+ background-color: #666;
+ padding: 30px;
+ text-align: center;
+ font-size: 35px;
+ color: white;
+
+}
+
+
+/
+* Bagian isi web
+*
+/
+ section {
+ display: -webkit-flex;
+ display: flex;
+
+}
+
+/
+* navigation menu
+*
+/
+ nav {
+ -webkit-flex: 1;
+ -ms-flex: 1;
+ flex: 1;
+ background: #ccc;
+ padding: 20px;
+
+}
+
+
+/
+* inside menu
+*
+/
+ nav ul {
+ list-style-type: none;
+ padding: 0;
+
+}
+
+
+/
+* content
+*
+/
+ article {
+ -webkit-flex: 3;
+ -ms-flex: 3;
+ flex: 3;
+ background-color: #f1f1f1;
+ padding: 10px;
+}
+
+
+/
+* footer
+*
+/
+ footer {
+ background-color: #777;
+ padding: 10px;
+
+ text-align: center;
+ color: white;
+ }
+ @media (max-width: 600px) {
+ section {
+ -webkit-flex-direction: column;
+ flex-direction: column;
+ }
+ }
+	</style>
+</head>
+<body>
+	<header>
+		<h2>Berilmu Itu Mulia</h2>
+	</header>
+		<nav>
+			<ul>
+				<li><a href="">Nasehat</a></li>
+				<li><a href="">Kata Mutiara</a></li>
+				<li><a href="">Pesan-Pesan</a></li>
+			</ul>
+		<article>
+			<h1 style="text-right: center; background: gray;">Nasehat Ulama</h1>
+			<p>Imam Hasan Al Bashri rahimahullah mengatakan,"Menuntut
+ilmu di masa kecil bagaikan mengukir di atas batu." Mempelajari
+ilmu di masa muda akan lebih mengokohkan ilmu sebagaimana
+kuatnya ukiran di atas batu. Oleh karena itu, barang siapa yang
+memperhatikan masa mudanya maka ia akan menuai pujian di masa
+tuanya. Namun demikian, anjuran menuntut ilmu di masa muda tidak
+dipahami bahwa orang yang sudah berusia lanjut tidak perlu
+mempelajari ilmu</p>
+		</article>
+		</nav>
+		<table border="2" cellspacing="2" cellpadding="2">
+
+	<tr>
+		<td>baris 2, kolom 2</td>
+		<td>baris 2, kolom 2</td>
+		<td>baris 2, kolom 2</td>
+		<td rowspan="3"> pergabungan baris 1,2 dan 3</td>
+	</tr>
+	<tr>
+		
+		<td>baris 2, kolom 2</td>
+		<td>baris 2, kolom 2</td>
+		<td>baris 2, kolom 3</td>
+	</tr>
+	<tr>
+		
+		<td>baris 3, kolom 2</td>
+		<td>baris 3, kolom 2</td>
+		<td>baris 3, kolom 3</td>
+	</tr>
+</table>
+	</section>
+				
+<footer>RezaAndhira2019</footer>
+</body>
+</html>

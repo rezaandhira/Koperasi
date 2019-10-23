@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		* {
+		box-sizing: border-box;
+	}
+
+	body {
+ 		font-family: Arial, Helvetica, sans-serif;
+	}
+
+ /* Style header */
+ header {
+ background-color: blue ;
+ padding: 30px;
+ text-align: center;
+ font-size: 35px;
+ color: white;
+ }
+
+ /* Bagian isi web */
+ section {
+ display: -webkit-flex;
+ display: flex;
+ }
+
+ /* navigation menu */
+ nav {
+ -webkit-flex: 1;
+ -ms-flex: 1;
+ flex: 1;
+ background: navy;
+ padding: 10px;
+ }
+
+ /* inside menu */
+ nav ul {
+
+ list-style-type: non
+padding: 0;
+ }
+
+ /* content */
+ article {
+ -webkit-flex: 3;
+ -ms-flex: 3;
+ flex: 3;
+ background-color: yellow;
+ padding: 10px;
+ }
+
+ /* footer */
+ footer {
+ background-color: pink;
+ padding: 10px;
+ text-align: center;
+ color: white;
+ }
+
+ @media (max-width: 600px) {
+ section {
+ -webkit-flex-direction: column;
+ flex-direction: column;
+ }
+ }
+     fieldset{
+        border: solid blue;
+        border-left: red;
+    }
+</style>
+</head>
+<body>
+	<header>
+		<h2>Berilmu Itu Mulia</h2>
+	</header>
+		<nav>
+			<ul>
+				<li><a href="">Nasehat</a></li>
+				<li><a href="">Kata Mutiara</a></li>
+				<li><a href="">Pesan-Pesan</a></li>
+			</ul>
+		<article>
+			<h1 style="text-right: center; background: gray;">Nasehat Ulama</h1>
+			<p>Imam Hasan Al Bashri rahimahullah mengatakan,"Menuntut
+ilmu di masa kecil bagaikan mengukir di atas batu." Mempelajari
+ilmu di masa muda akan lebih mengokohkan ilmu sebagaimana
+kuatnya ukiran di atas batu. Oleh karena itu, barang siapa yang
+memperhatikan masa mudanya maka ia akan menuai pujian di masa
+tuanya. Namun demikian, anjuran menuntut ilmu di masa muda tidak
+dipahami bahwa orang yang sudah berusia lanjut tidak perlu
+mempelajari ilmu</p>
+	
+</body>
+</html>
+	<h3 style="background-color: pink" align="center">Informasi Personal</h3>
+<table>
+	<tr>
+		<td>No peserta</td>
+		<td>:</td>
+		<td><input type="number" name=""></td>
+	</tr>
+	<tr>
+		<td>Nama</td>
+		<td>:</td>
+		<td><input type="text" name=""></td>
+	</tr>
+	<tr>
+	   	<td>Tanggal Lahir</td>
+	   	<td>:</td>
+	   	<td><input type="date" name=""></td>
+	</tr>
+	<tr>
+	   	<td>alamat</td>
+	    <td>:</td>
+	    <td><textarea cols="20" rows="5"></textarea></td>
+	</tr>
+	<tr>
+	   	<td>agama</td>
+	   	<td>:</td>
+	   	<td>
+	   		<select>
+	   			<option>islam</option>
+	   			<option>hindu</option>
+	   			<option>kristen</option>
+	   			<option>budha</option>
+	   		</select>
+	   	</td>
+   	</tr>
+	<tr>
+  		<td>jenis kelamin</td>
+  		<td>:</td>
+  		<td><input type="radio" name="">laki laki <input type="radio" name="">perempuan</td>
+	</tr>
+	<tr>
+  		<td>status</td>
+  		<td>:</td>
+  		<td>
+  			<select>
+  				<option>menikah</option>
+  				<option>lajang</option>
+  				<option>jomblo seumur hidup</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td>Kewarganegaraan</td>
+		<td>:</td>
+		<td>
+			<select>
+				<option>WNI</option>
+				<option>WNA</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+  		<td>Pekerjaan</td>
+  		<td>:</td>
+  		<td><input type="text" name=""></td>
+	</tr>
+	<tr>
+  		<td>Kelurahan</td>
+  		<td>:</td>
+  		<td><input type="text" name=""></td>
+	</tr>
+	<tr>
+  		<td>Kecamatan</td>
+  		<td>:</td>
+  		<td><input type="text" name=""></td>
+	</tr>
+	<tr>
+  		<td>Kota/Kabupaten</td>
+  		<td>:</td>
+		<td><input type="text" name=""></td>
+	</tr>
+	<tr>
+  		<td>Provinsi</td>
+  		<td>:</td>
+  		<td>
+  			<select>
+  				<option>NTB</option>
+  				<option>NTT</option>
+  				<option>BALI</option>
+  				<option>PAPUA</option>
+  			</select>
+  		</td>
+	</tr>
+	<tr>
+  		<td>No. Telepon</td>
+  		<td>:</td>
+  		<td><input type="number" name=""></td>
+	</tr>
+</table>
+<table>
+	<h3 style="background-color: pink" align="center">Informasi Sekolah</h3>
+	<tr>
+		<td>Asal Sekolah</td>
+		<td>:</td>
+		<td><input type="text" name=""></td>
+	</tr>
+	<tr>
+		<td>Jurusan Sekolah</td>
+		<td>:</td>
+		<td><input type="text" name=""></td>
+	</tr>
+	<tr>
+		<td>Nilai Ujian Nasional</td>
+		<td>:</td>
+		<td><input type="number" name=""></td>
+	</tr>
+	<tr>
+		<td>Tahun Ajaran</td>
+		<td>:</td>
+		<td>
+			<select>
+				<option>2011</option>
+				<option>2012</option>
+				<option>2013</option>
+				<option>2014</option>
+				<option>2015</option>
+				<option>2016</option>
+				<option>2017</option>
+				<option>2018</option>
+				<option>2019</option>
+				<option>2020</option>
+			</select>
+		</td>
+	</tr>
+</table>
+<table>
+<h3 style="background-color: pink" align="center">Pilih program studi</h3>
+	<tr>
+		<td>program studi 1</td>
+		<td>:</td>
+		<td>
+			<select>
+				<option>S1 ilmu komputer </option>
+				<option>S1 DKV</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td>Program studi 2</td>
+		<td>:</td>
+		<td>
+			<select>
+				<option>D3 Mmanagemen</option>
+				<option>S1 Komunikasi </option>
+			</select>
+		</td>
+<center><button type="submit">simpan</button>
+<button type="reset">batal</button></center>
+		</nav>
+	</article>
+	<form name="Nama_form" enctype="multipart/form-data" action="proses.php" method="post">Upload Foto Anda :
+		<input type="submit" value="Choose file">
+	</form>
+</table>
+</section>
+<footer>RezaAndhira</footer>
+</body>
+</html>
